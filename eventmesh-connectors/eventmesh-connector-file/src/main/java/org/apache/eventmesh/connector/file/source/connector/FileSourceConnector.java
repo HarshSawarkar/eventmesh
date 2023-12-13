@@ -98,7 +98,7 @@ public class FileSourceConnector implements Source {
         try {
             inputStream.close();
         } catch (Exception e){
-            log.error("Error closing resources: {}", e.getMessage());
+            log.error("Error closing resources : {}", e.getMessage());
         }
     }
 
